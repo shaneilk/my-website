@@ -17,8 +17,9 @@ function App() {
           This is where you can find information to contact me
         </div>
       </Tabs>
+
       <h1>My react App</h1>
-      <h2>Author: Author Shaneil Kapadia</h2>
+      <h2>Author: Shaneil Kapadia</h2>
       <img src={profile} alt="profile-image" />
     </div>
   );
