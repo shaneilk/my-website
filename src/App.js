@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Tabs from "./components/Tabs";
 import profile from './img/shaneilProfile.jpeg';
 import as1 from './img/asteroidSeekerImages/mainscreen.jpeg';
@@ -7,6 +8,8 @@ import as3 from './img/asteroidSeekerImages/winscreen.jpeg';
 import dm1 from './img/daMatchImages/mainmenu.jpeg';
 import dm2 from './img/daMatchImages/gamestart3images.jpeg';
 import dm3 from './img/daMatchImages/gameduring3images.jpeg';
+import email from './img/icons/icon.png'
+
 
 import './App.css';
 
@@ -94,7 +97,9 @@ function App() {
         </div>
 
         <div label="Contact Me">
-          This is where you can find information to contact me
+          <a href="example.com">
+            <FontAwesomeIcon icon={email} size="2x" />
+          </a>
         </div>
 
         <div label="About Me">
@@ -105,6 +110,7 @@ function App() {
             />
             <p
               style={{fontFamily: 'Times New Roman'}}
+              
             >
               Hello, my name is Shaneil and I am a third year Computing Science student at Simon Fraser University. I am passionate about Software Development, particularly 
               Mobile and Web Development. Through software engineering courses I've created three Android Apps that are on display on the Personal Projects Tab. In addition
