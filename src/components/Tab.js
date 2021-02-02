@@ -30,6 +30,7 @@ class Tab extends Component {
 
     return (
       <li
+        style={{fontFamily: 'Times New Roman'}}
         className={className}
         onClick={onClick}
       >
