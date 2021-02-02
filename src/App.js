@@ -19,21 +19,23 @@ function App() {
             <h2 style={{fontFamily: 'Times New Roman'}}>
               DaMatch:
             </h2>
-            <p style={{fontFamily: 'Times New Roman'}}>
+            <p 
+              style={{fontFamily: 'Times New Roman'}}
+            >
               This is the DaMatch App, I created this app alongside 3 other team members that I worked with in a Scrum team. Through three two-week iterations we were able to
               create the base of the app, implement different modes, store high scores and customize images on the cards that we had to match by taking images from the google
               photo gallery as well as Flicker   
             </p>
             <div href="/" className="avatar">
               <img alt="avatar" src={dm1} 
-                width="300" 
-                height="150"
-                style= {{margin: '10px 10px 10px 10px'}}
+                width="500" 
+                height="250"
+                style={{margin: '10px 10px 10px 10px'}}
               />
               <img alt="avatar" src={dm2} 
-                width="300" 
-                height="150"
-                style= {{margin: '10px 10px 10px 10px'}}
+                width="500" 
+                height="250"
+                style={{margin: '10px 10px 10px 10px'}}
               />
             </div>
             <div href="/" className="avatar">
@@ -41,9 +43,9 @@ function App() {
             </div>
             <div href="/" className="avatar">
               <img alt="avatar" src={dm3} 
-                width="300" 
-                height="150"
-                style= {{margin: '10px 10px 10px 10px'}}
+                width="500" 
+                height="250"
+                style={{margin: '10px 10px 10px 10px'}}
               />
             </div>
           </div>
@@ -52,7 +54,9 @@ function App() {
             <h2 style={{fontFamily: 'Times New Roman'}}>
               Asteroid Seeker:
             </h2>
-            <p style={{fontFamily: 'Times New Roman'}}>
+            <p 
+              style={{fontFamily: 'Times New Roman'}}
+            >
               This is the Asteroid Seeker App, I created this app along with a classmate. This the purpose of this game is to find all of the asteroids that are hidden behind
               the squares in the least amount of searches. For this assignment app we had different board sizes and asteroid numbers for different modes as well as a gameboard
               that stored the amound of times a square was clicked in order to check for asteroids near a square.
@@ -60,14 +64,14 @@ function App() {
             
             <div href="/" className="avatar">
               <img alt="avatar" src={as1} 
-                width="300" 
-                height="150"
-                style= {{margin: '10px 10px 10px 10px'}}
+                width="500" 
+                height="250"
+                style={{margin: '10px 10px 10px 10px'}}
               />
               <img alt="avatar" src={as2} 
-                width="300" 
-                height="150"
-                style= {{margin: '10px 10px 10px 10px'}}
+                width="500" 
+                height="250"
+                style={{margin: '10px 10px 10px 10px'}}
               />
             </div>
             <div href="/" className="avatar">
@@ -75,14 +79,16 @@ function App() {
             </div>
             <div href="/" className="avatar">
               <img alt="avatar" src={as3} 
-                width="300" 
-                height="150"
+                width="500" 
+                height="250"
                 style= {{margin: '10px 10px 10px 10px'}}
               />
             </div>
           </div>
 
-          <p style={{fontFamily: 'Times New Roman'}}>
+          <p 
+            style={{fontFamily: 'Times New Roman'}}
+          >
             This is the Camera Depth of Field app. The purpose of this app is to calculate the range where a subject would be in focus given a camera lens and aperture
           </p>
         </div>
@@ -97,6 +103,14 @@ function App() {
               width="395"
               height="400" 
             />
+            <p
+              style={{fontFamily: 'Times New Roman'}}
+            >
+              Hello, my name is Shaneil and I am a third year Computing Science student at Simon Fraser University. I am passionate about Software Development, particularly 
+              Mobile and Web Development. Through software engineering courses I've created three Android Apps that are on display on the Personal Projects Tab. In addition
+              to this I am learning React and Javascript concurrently, in fact this website was developed from scratch using React. I hope to develop more software in the 
+              future that I can share with you all, but in the meantime I hope you enjoy my currently existing projects. 
+            </p>
           </div> 
         </div>
 
