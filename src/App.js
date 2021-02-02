@@ -1,5 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { SocialIcon } from 'react-social-icons';
 import Tabs from "./components/Tabs";
 import profile from './img/shaneilProfile.jpeg';
 import as1 from './img/asteroidSeekerImages/mainscreen.jpeg';
@@ -9,8 +10,6 @@ import dm1 from './img/daMatchImages/mainmenu.jpeg';
 import dm2 from './img/daMatchImages/gamestart3images.jpeg';
 import dm3 from './img/daMatchImages/gameduring3images.jpeg';
 import email from './img/icons/icon.png'
-
-
 import './App.css';
 
 function App() {
@@ -95,13 +94,6 @@ function App() {
             This is the Camera Depth of Field app. The purpose of this app is to calculate the range where a subject would be in focus given a camera lens and aperture
           </p>
         </div>
-
-        <div label="Contact Me">
-          <a href="example.com">
-            <FontAwesomeIcon icon={email} size="2x" />
-          </a>
-        </div>
-
         <div label="About Me">
           <div href="/" className="avatar">
             <img alt="avatar" src={profile} 
@@ -117,6 +109,18 @@ function App() {
               to this I am learning React and Javascript concurrently, in fact this website was developed from scratch using React. I hope to develop more software in the 
               future that I can share with you all, but in the meantime I hope you enjoy my currently existing projects. 
             </p>
+            <SocialIcon url="https://github.com/shaneilk" 
+              style= {{margin: '5px 5px 5px 5px'}}
+            />
+            <SocialIcon url="https://linkedin.com/in/shaneil-kapadia" 
+              style= {{margin: '5px 5px 5px 5px'}}
+            />
+            <SocialIcon url="https://open.spotify.com/user/12179757021?si=n7yAptI3QrmqdbgbX3hsUA" 
+              style= {{margin: '5px 5px 5px 5px'}}
+            />
+            <SocialIcon url="https://www.instagram.com/shaneilkapadia/" 
+              style= {{margin: '5px 5px 5px 5px'}}
+            />
           </div> 
         </div>
 
