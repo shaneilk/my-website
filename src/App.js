@@ -29,9 +29,10 @@ function App() {
             <p 
               style={{fontFamily: 'Times New Roman'}}
             >
-              This is the DaMatch App, I created this app alongside 3 other team members that I worked with in a Scrum team. Through three two-week iterations we were able to
-              create the base of the app, implement different modes, store high scores and customize images on the cards that we had to match by taking images from the google
-              photo gallery as well as Flicker   
+              This DaMatch, it is the game where the objective is to match a symbol from a card in the draw pile with one on the discard pile
+              untill all matches are found. It was created as a part of a final group project in CMPT 276. Through three two-week iterations
+              I worked with three other team members to create the base of the app, implement different modes, store high scores and 
+              customize images on the cards by taking images from a phones photo gallery as well as Flicker.   
             </p>
             <div href="/" className="avatar">
               <img alt="avatar" src={dm1} 
@@ -74,9 +75,10 @@ function App() {
             <p 
               style={{fontFamily: 'Times New Roman'}}
             >
-              This is the Asteroid Seeker App, I created this app along with a classmate. This the purpose of this game is to find all of the asteroids that are hidden behind
-              the squares in the least amount of searches. For this assignment app we had different board sizes and asteroid numbers for different modes as well as a gameboard
-              that stored the amound of times a square was clicked in order to check for asteroids near a square.
+              This is the Asteroid Seeker, the objective of this game is to find all the asteroids hidden behind the squares in the least 
+              amount of scans with the help of squares that show how many asteroids are nearby. I created this app as a part of a assignment in CMPT 276 with a partner. For this assignment app we had 
+              different board sizes and asteroid numbers for different modes as well as a gameboard that stored the amound of times a square
+              was clicked in order to check for asteroids near a square.
             </p>
             
             <div href="/" className="avatar">
