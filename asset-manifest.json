@@ -1,30 +1,33 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.61c1d981.chunk.css",
-    "main.js": "/my-website/static/js/main.9eb2441b.chunk.js",
-    "main.js.map": "/my-website/static/js/main.9eb2441b.chunk.js.map",
+    "main.js": "/my-website/static/js/main.cdc5b927.chunk.js",
+    "main.js.map": "/my-website/static/js/main.cdc5b927.chunk.js.map",
     "runtime-main.js": "/my-website/static/js/runtime-main.85c730c4.js",
     "runtime-main.js.map": "/my-website/static/js/runtime-main.85c730c4.js.map",
-    "static/js/2.a50c53c8.chunk.js": "/my-website/static/js/2.a50c53c8.chunk.js",
-    "static/js/2.a50c53c8.chunk.js.map": "/my-website/static/js/2.a50c53c8.chunk.js.map",
+    "static/js/2.4dda51db.chunk.js": "/my-website/static/js/2.4dda51db.chunk.js",
+    "static/js/2.4dda51db.chunk.js.map": "/my-website/static/js/2.4dda51db.chunk.js.map",
     "static/js/3.3520c59a.chunk.js": "/my-website/static/js/3.3520c59a.chunk.js",
     "static/js/3.3520c59a.chunk.js.map": "/my-website/static/js/3.3520c59a.chunk.js.map",
     "index.html": "/my-website/index.html",
     "static/css/main.61c1d981.chunk.css.map": "/my-website/static/css/main.61c1d981.chunk.css.map",
-    "static/js/2.a50c53c8.chunk.js.LICENSE.txt": "/my-website/static/js/2.a50c53c8.chunk.js.LICENSE.txt",
+    "static/js/2.4dda51db.chunk.js.LICENSE.txt": "/my-website/static/js/2.4dda51db.chunk.js.LICENSE.txt",
+    "static/media/bigboard.0203daf5.jpeg": "/my-website/static/media/bigboard.0203daf5.jpeg",
+    "static/media/flickergallery.70d8c099.jpeg": "/my-website/static/media/flickergallery.70d8c099.jpeg",
     "static/media/gameduring3images.18dc3467.jpeg": "/my-website/static/media/gameduring3images.18dc3467.jpeg",
     "static/media/gamestart3images.15ce604d.jpeg": "/my-website/static/media/gamestart3images.15ce604d.jpeg",
-    "static/media/icon.28a07374.png": "/my-website/static/media/icon.28a07374.png",
+    "static/media/highscores.1325032d.jpeg": "/my-website/static/media/highscores.1325032d.jpeg",
     "static/media/instructions.2d0d26e7.jpeg": "/my-website/static/media/instructions.2d0d26e7.jpeg",
     "static/media/mainmenu.35aacb59.jpeg": "/my-website/static/media/mainmenu.35aacb59.jpeg",
     "static/media/mainscreen.1e67f7df.jpeg": "/my-website/static/media/mainscreen.1e67f7df.jpeg",
     "static/media/shaneilProfile.e4aaa9a8.jpeg": "/my-website/static/media/shaneilProfile.e4aaa9a8.jpeg",
+    "static/media/smallboard.05e60ef4.jpeg": "/my-website/static/media/smallboard.05e60ef4.jpeg",
     "static/media/winscreen.1a7180b3.jpeg": "/my-website/static/media/winscreen.1a7180b3.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.85c730c4.js",
-    "static/js/2.a50c53c8.chunk.js",
+    "static/js/2.4dda51db.chunk.js",
     "static/css/main.61c1d981.chunk.css",
-    "static/js/main.9eb2441b.chunk.js"
+    "static/js/main.cdc5b927.chunk.js"
   ]
 }
