@@ -5,11 +5,16 @@ import Tabs from "./components/Tabs";
 import profile from './img/shaneilProfile.jpeg';
 import as1 from './img/asteroidSeekerImages/mainscreen.jpeg';
 import as2 from './img/asteroidSeekerImages/instructions.jpeg';
-import as3 from './img/asteroidSeekerImages/winscreen.jpeg';
+import as3 from './img/asteroidSeekerImages/smallboard.jpeg';
+import as4 from './img/asteroidSeekerImages/bigboard.jpeg';
+import as5 from './img/asteroidSeekerImages/winscreen.jpeg';
+
+
 import dm1 from './img/daMatchImages/mainmenu.jpeg';
 import dm2 from './img/daMatchImages/gamestart3images.jpeg';
 import dm3 from './img/daMatchImages/gameduring3images.jpeg';
-import email from './img/icons/icon.png'
+import dm4 from './img/daMatchImages/flickergallery.jpeg';
+import dm5 from './img/daMatchImages/highscores.jpeg';
 import './App.css';
 
 function App() {
@@ -39,15 +44,25 @@ function App() {
                 height="250"
                 style={{margin: '10px 10px 10px 10px'}}
               />
+              <img alt="avatar" src={dm3}
+                width="500"
+                height="250"
+                style={{ margin: '10px 10px 10px 10px' }}
+              />
             </div>
             <div href="/" className="avatar">
               
             </div>
             <div href="/" className="avatar">
-              <img alt="avatar" src={dm3} 
+              <img alt="avatar" src={dm4} 
                 width="500" 
                 height="250"
                 style={{margin: '10px 10px 10px 10px'}}
+              />
+              <img alt="avatar" src={dm5}
+                width="500"
+                height="250"
+                style={{ margin: '10px 10px 10px 10px' }}
               />
             </div>
           </div>
@@ -75,24 +90,29 @@ function App() {
                 height="250"
                 style={{margin: '10px 10px 10px 10px'}}
               />
+              <img alt="avatar" src={as3}
+                width="500"
+                height="250"
+                style={{ margin: '10px 10px 10px 10px' }}
+              />
             </div>
             <div href="/" className="avatar">
               
             </div>
             <div href="/" className="avatar">
-              <img alt="avatar" src={as3} 
+              <img alt="avatar" src={as4} 
                 width="500" 
                 height="250"
                 style= {{margin: '10px 10px 10px 10px'}}
               />
+              <img alt="avatar" src={as5}
+                width="500"
+                height="250"
+                style={{ margin: '10px 10px 10px 10px' }}
+              />
             </div>
           </div>
 
-          <p 
-            style={{fontFamily: 'Times New Roman'}}
-          >
-            This is the Camera Depth of Field app. The purpose of this app is to calculate the range where a subject would be in focus given a camera lens and aperture
-          </p>
         </div>
         <div label="About Me">
           <div href="/" className="avatar">
@@ -113,12 +133,6 @@ function App() {
               style= {{margin: '5px 5px 5px 5px'}}
             />
             <SocialIcon url="https://linkedin.com/in/shaneil-kapadia" 
-              style= {{margin: '5px 5px 5px 5px'}}
-            />
-            <SocialIcon url="https://open.spotify.com/user/12179757021?si=n7yAptI3QrmqdbgbX3hsUA" 
-              style= {{margin: '5px 5px 5px 5px'}}
-            />
-            <SocialIcon url="https://www.instagram.com/shaneilkapadia/" 
               style= {{margin: '5px 5px 5px 5px'}}
             />
           </div> 
