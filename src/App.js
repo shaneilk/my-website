@@ -24,7 +24,7 @@ function App() {
           <div>
               <FivePhotoAppLayout
                 AppName="DaMatch"
-                Description="This is DaMatch, it is the game where the objective is to match a symbol from a card in the draw pile with one 
+                Description="This is DaMatch, the objective of this game is to match a symbol from a card in the draw pile with one 
                 on the discard pile untill all matches are found. It was created as a part of a final group project in CMPT 276. Through 
                 three two-week iterations I worked with three other team members to create the base of the app, implement different modes, 
                 store high scores and customize images on the cards by taking images from a phones photo gallery as well as Flicker."
