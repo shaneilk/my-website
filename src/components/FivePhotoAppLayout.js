@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+
 const FivePhotoAppLayout = (props) => {
     return(
         <div>
@@ -28,8 +29,6 @@ const FivePhotoAppLayout = (props) => {
                     height="250"
                     style={{ margin: '10px 10px 10px 10px' }}
                 />
-            </div>
-            <div href="/" className="avatar">
                 <img alt="avatar" src={props.photo4}
                     width="500"
                     height="250"

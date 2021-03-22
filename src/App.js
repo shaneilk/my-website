@@ -1,7 +1,10 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
+import ReactPlayer from 'react-player';
+
 import Tabs from "./components/Tabs";
 import FivePhotoAppLayout from "./components/FivePhotoAppLayout";
+import VideoPlayerLayout from "./components/VideoPlayerLayout";
 import profile from './img/shaneilProfile.jpeg';
 import as1 from './img/asteroidSeekerImages/mainscreen.jpeg';
 import as2 from './img/asteroidSeekerImages/instructions.jpeg';
@@ -22,8 +25,20 @@ function App() {
       <Tabs>
         <div label="Personal Projects">
           <div>
+            <VideoPlayerLayout
+              AppName="cShell"
+              Technologies="Made in c"
+              VideoLink="https://www.youtube.com/watch?v=Ej_ueH1OqO8"
+              Description="This cShell was made using multitasking via child processes, it can perform UNIX commands, 
+              change theme colours, log previous commands, store environment variables as well as print text and environment variables.
+              It can be run in interactive mode where you can type in commands one by one or a script mode where you can give a list of
+              commands for it to perform"
+
+            />
+          </div>
+          <div>
               <FivePhotoAppLayout
-                AppName="DaMatch"
+                AppName="DaMatch (developed in Android Studios using Java)"
                 Description="This is DaMatch, the objective of this game is to match a symbol from a card in the draw pile with one 
                 on the discard pile untill all matches are found. It was created as a part of a final group project in CMPT 276. Through 
                 three two-week iterations I worked with three other team members to create the base of the app, implement different modes, 
@@ -36,7 +51,7 @@ function App() {
               />
         
               <FivePhotoAppLayout
-                AppName="Asteroid Seeker"
+                AppName="Asteroid Seeker (developed in Android Studios using Java)"
                 Description="This is the Asteroid Seeker, the objective of this game is to find all the asteroids hidden behind the squares in the least 
                 amount of scans with the help of squares that show how many asteroids are nearby. I created this app as a part of a assignment in CMPT 276 with a partner. For this assignment app we had 
                 different board sizes and asteroid numbers for different modes as well as a gameboard that stored the amound of times a square
