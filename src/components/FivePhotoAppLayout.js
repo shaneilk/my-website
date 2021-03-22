@@ -7,11 +7,14 @@ const FivePhotoAppLayout = (props) => {
         <div>
             <h2 style={{ fontFamily: 'Times New Roman' }}>
                 {props.AppName}
+                <br></br>
+                {props.Technologies}
             </h2>
-            <p
-                style={{fontFamily: 'Times New Roman'}}
-            >
+            <p style={{fontFamily: 'Times New Roman'}}>
+                
                 {props.Description}
+                
+                
             </p>
             <div href="/" className="avatar">
                 <img alt="avatar" src={props.photo1}

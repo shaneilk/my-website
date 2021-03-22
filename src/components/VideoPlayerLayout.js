@@ -7,14 +7,14 @@ const VideoPlayerLayout = (props) => {
         <div>
             <h2 style={{ fontFamily: 'Times New Roman'}}>
                 {props.AppName} <br>
-                </br>(developed in C)
+                </br>
+                {props.Technologies}
             </h2>
             <p style={{ fontFamily: 'Times New Roman'}}>
                 {props.Description}
             </p>
             <ReactPlayer 
                 url={props.VideoLink}
-                light={true}
                 width= '60%'
                 height='640px'
                 pip={true}
