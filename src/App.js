@@ -49,7 +49,7 @@ function App() {
           <div>
               <FivePhotoAppLayout
                 AppName="DaMatch"
-                Technologies="(developed in Android Studios using Java)"
+                Technologies="(developed in Android Studio using Java)"
                 Description="This is DaMatch, the objective of this game is to match a symbol from a card in the draw pile with one 
                 on the discard pile untill all matches are found. It was created as a part of a final group project in CMPT 276. Through 
                 three two-week iterations I worked with three other team members to create the base of the app, implement different modes, 
@@ -63,7 +63,7 @@ function App() {
         
               <FivePhotoAppLayout
                 AppName="Asteroid Seeker"
-                Technologies="(developed in Android Studios using Java)"
+                Technologies="(developed in Android Studio using Java)"
                 Description="This is the Asteroid Seeker, the objective of this game is to find all the asteroids hidden behind the squares in the least 
                 amount of scans with the help of squares that show how many asteroids are nearby. I created this app as a part of a assignment in CMPT 276 with a partner. For this assignment app we had 
                 different board sizes and asteroid numbers for different modes as well as a gameboard that stored the amound of times a square
@@ -91,11 +91,17 @@ function App() {
             </p>
             <SocialIcon 
               url="https://github.com/shaneilk" 
-              style= {{margin: '5px 5px 5px 5px'}}
+              style={{
+                margin: '5px 5px 5px 5px',
+                height: 90, width: 90
+              }}
             />
             <SocialIcon 
               url="https://linkedin.com/in/shaneil-kapadia" 
-              style= {{margin: '5px 5px 5px 5px'}}
+              style={{
+                margin: '5px 5px 5px 5px',
+                height: 90, width: 90
+              }}
             />
           </div> 
         </div>
