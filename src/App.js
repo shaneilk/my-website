@@ -36,7 +36,7 @@ function App() {
               the use of mutexes and semaphores."
             />
             <VideoPlayerLayout
-              AppName="cShell"
+              AppName="CShell"
               Technologies="(developed in C)"
               VideoLink="https://www.youtube.com/watch?v=Ej_ueH1OqO8"
               Description="This cShell was made using multitasking via child processes, it can perform UNIX commands, 
