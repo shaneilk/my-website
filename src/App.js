@@ -26,7 +26,7 @@ function App() {
         <div label="Personal Projects">
           <div>
             <VideoPlayerLayout
-              AppName="Chatbot"
+              AppName="Lets-Talk"
               Technologies="(developed in C)"
               VideoLink="https://youtu.be/qjOVqhLsTWk"
               Description="This is program that allows for users at one terminal to communicate with users at another terminal.
