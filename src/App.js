@@ -29,7 +29,7 @@ function App() {
               AppName="Lets-Talk"
               Technologies="(developed in C)"
               VideoLink="https://youtu.be/qjOVqhLsTWk"
-              Description="This is program that allows for users at one terminal to communicate with users at another terminal.
+              Description="This is a program that allows for users at one terminal to communicate with users at another terminal.
               You can optionally communicate with yourself if your remote port value is the same as your own port value. this program allows
               a user to check if the port they wish to communicate with is online.  Communication was facilitated by using UDP sockets and 
               The program was developed using pthreads to allow for multithreading. Synchronization of the pthreads were done through 
@@ -39,7 +39,7 @@ function App() {
               AppName="CShell"
               Technologies="(developed in C)"
               VideoLink="https://www.youtube.com/watch?v=Ej_ueH1OqO8"
-              Description="This cShell was made using multitasking via child processes, it can perform UNIX commands, 
+              Description="This CShell was made using multitasking via child processes, it can perform UNIX commands, 
               change theme colours, log previous commands, store environment variables as well as print text and environment variables.
               It can be run in interactive mode where you can type in commands one by one or a script mode where you can give a list of
               commands for it to perform"
