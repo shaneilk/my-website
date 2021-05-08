@@ -18,20 +18,16 @@ import dm3 from './img/daMatchImages/gameduring3images.jpeg';
 import dm4 from './img/daMatchImages/flickergallery.jpeg';
 import dm5 from './img/daMatchImages/highscores.jpeg';
 import './App.css';
-import Home from './Home.js'
 import AboutMe from './AboutMe.js'
 import Projects from './Projects.js'
 import { Route, Link } from 'react-router-dom';
-import Navbar from './components/Navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Route exact path="/my-website" component={Projects} />
-      <Route exact path="/my-website/about" component={AboutMe} />
-    </div>
-  );
+function Home(){
+    return(
+        <div>
+            <h1>Welcome to the Home page</h1>
+        </div>
+    )
 }
 
-export default App;
+export default Home;
