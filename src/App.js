@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route exact path="/my-website" component={Projects} />
+          <Route exact path="/" component={Projects} />
           <Route path="/about" component={AboutMe} />
         </Switch>
       </Router>
