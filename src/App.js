@@ -6,14 +6,19 @@ import Projects from './Projects.js'
 import { HashRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
 import Navbar from './components/Navbar.js';
 
+
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route exact path="/" component={Projects} />
-          <Route path="/about" component={AboutMe} />
+          <Route>
+            <Projects />
+          </Route>
+          <Route>
+            <AboutMe />
+          </Route>
         </Switch>
       </Router>
     </div>

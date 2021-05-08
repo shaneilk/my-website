@@ -6,8 +6,8 @@ function Navbar() {
         <div className="Navbar">
             <div className="leftSide">
                 <div className="links">
-                    <a href="/">Projects</a>
-                    <a href="/about">About Me</a>
+                    <a href="/my-website">Projects</a>
+                    <a href="/my-website/about">About Me</a>
                 </div>
             </div>
             <div className="rightSide">
