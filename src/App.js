@@ -3,7 +3,7 @@ import './App.css';
 
 import AboutMe from './AboutMe.js'
 import Projects from './Projects.js'
-import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
 import Navbar from './components/Navbar.js';
 
 function App() {
