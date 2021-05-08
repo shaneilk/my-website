@@ -30,7 +30,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/my-website" component={Projects} />
-        <Route exact path="/my-website/about" component={AboutMe} />
+        <Route path="/my-website/about" component={AboutMe} />
       </Switch>
       
     </div>
