@@ -14,7 +14,6 @@ function App() {
         <Switch>
           <Route exact path="/my-website" component={Projects} />
           <Route path="/about" component={AboutMe} />
-          <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
       </Router>
     </div>
