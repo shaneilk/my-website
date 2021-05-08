@@ -67,7 +67,8 @@ function Projects() {
                     AppName="Asteroid Seeker"
                     Technologies="(Developed in Android Studio using Java)"
                     Description="This is the Asteroid Seeker, the objective of this game is to find all the asteroids hidden behind the squares in the least 
-                    amount of scans with the help of squares that show how many asteroids are nearby. I created this app as a part of a assignment in CMPT 276 with a partner. For this assignment app we had 
+                    amount of scans with the help of squares that show how many asteroids are nearby. I created this app as a part of a assignment in CMPT 276 with a partner. 
+                    For this assignment app we had 
                     different board sizes and asteroid numbers for different modes as well as a gameboard that stored the amound of times a square
                     was clicked in order to check for asteroids near a square."
                     photo1={as1}

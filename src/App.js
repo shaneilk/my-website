@@ -3,7 +3,7 @@ import './App.css';
 
 import AboutMe from './AboutMe.js'
 import Projects from './Projects.js'
-import { HashRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
+import { Route, Switch, Link, Redirect } from 'react-router-dom';
 import Navbar from './components/Navbar.js';
 
 
@@ -11,16 +11,14 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Router basename={process.env.PUBLIC_URL}>
-        <Switch>
-          <Route exact path="/my-website">
-            <Projects />
-          </Route>
-          <Route path="/about">
-            <AboutMe />
-          </Route>
-        </Switch>
-      </Router>
+      <Switch>
+        <Route exact path="/my-website">
+          <Projects />
+        </Route>
+        <Route path="/my-website/about">
+          <AboutMe />
+        </Route>
+      </Switch>
     </div>
   );
 }
