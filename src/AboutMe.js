@@ -1,14 +1,8 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
-import ReactPlayer from 'react-player';
-
-import Tabs from "./components/Tabs";
-import FivePhotoAppLayout from "./components/FivePhotoAppLayout";
-import VideoPlayerLayout from "./components/VideoPlayerLayout";
 import profile from './img/shaneilProfile.jpeg';
 
 import './App.css';
-import { Route, Link } from 'react-router-dom';
 
 function AboutMe() {
     return (
