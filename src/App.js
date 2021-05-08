@@ -13,10 +13,10 @@ function App() {
       <Navbar />
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route>
+          <Route exact path="/my-website">
             <Projects />
           </Route>
-          <Route>
+          <Route path="/about">
             <AboutMe />
           </Route>
         </Switch>
