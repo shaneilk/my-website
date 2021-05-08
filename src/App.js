@@ -10,10 +10,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/my-website" component={Projects} />
-          <Route exact path="/my-website/about" component={AboutMe} />
+          <Route path="/about" component={AboutMe} />
+          <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
       </Router>
     </div>
