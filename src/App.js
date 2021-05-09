@@ -11,15 +11,18 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Switch>
-        <Route exact path="/my-website">
-          <Projects />
-        </Route>
-        <Route path="/my-website/about">
-          <AboutMe />
-        </Route>
-      </Switch>
+      <div>
+        <Switch>
+          <Route exact path="/my-website">
+            <Projects />
+          </Route>
+          <Route path="/my-website/about">
+            <AboutMe />
+          </Route>
+        </Switch>
+      </div>
     </div>
+      
   );
 }
 
