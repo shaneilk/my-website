@@ -24,7 +24,7 @@ function Projects() {
                     AppName="Covid Buddy"
                     Technologies="Developed in Python"
                     VideoLink="https://www.youtube.com/watch?v=p9P4t1LNXCo"
-                    Description="Covid Buddy gives you statistics and COVID-19 related information based on the country and province you are in. This project was developed alongside a team of five during the scuffedhacks hackathon"
+                    Description="Covid Buddy gives you statistics and COVID-19 related information based on the country and province you are in."
                 />
 
                 <VideoPlayerLayout
