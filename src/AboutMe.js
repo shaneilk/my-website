@@ -17,7 +17,7 @@ function AboutMe() {
                     <p style={{ fontFamily: 'Times New Roman' }} >
                         Hello, my name is Shaneil and I am a third year Computing Science student at Simon Fraser University. I am passionate about Software Development, particularly
                         Mobile and Web Development. Through software engineering courses I've created three Android Apps that are on display on the Personal Projects Tab. In addition
-                        to this I am learning React and Javascript concurrently, in fact this website was developed from scratch using React. I hope to develop more software in the
+                        to this I am learning React.js and Javascript concurrently, in fact this website was developed from scratch using React.js. I hope to develop more software in the
                         future that I can share with you all, but in the meantime I hope you enjoy my currently existing projects.
                     </p>
                     <SocialIcon
